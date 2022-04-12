@@ -1,0 +1,12 @@
+/* CSS STRUCTURE TEMPLATE */
+
+/* rectangle 1 Navigation */
+.rectangle-1 {
+    position: absolute;
+    width: 1440px;
+    height: 68px;
+    left: 0px;
+    top: 24px;
+    background: rgba(0, 0, 0, 0.69);
+
+}
