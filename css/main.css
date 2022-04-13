@@ -3,10 +3,111 @@
 /* rectangle 1 Navigation */
 .rectangle-1 {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 68px;
     left: 0px;
     top: 24px;
     background: rgba(0, 0, 0, 0.69);
 
+}
+
+.logo {
+    /* logo_sublight */
+    position: absolute;
+    width: 465px;
+    height: 86px;
+    left: 20px;
+    top: -10px;
+
+}
+
+.our_services {
+    /* OUR SERVICES SECTION */
+
+    position: absolute;
+    width: 110px;
+    height: 19px;
+    right: 720px;
+    top: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    white-space: nowrap;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.our_products {
+    /* OUR PRODUCTS SECTION */
+    position: absolute;
+    width: 119px;
+    height: 19px;
+    left: 885px;
+    top: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    white-space: nowrap;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.about_us {
+    /* OUR ABOUT US SECTION */
+
+    position: absolute;
+    width: 77px;
+    height: 19px;
+    left: 1059px;
+    top: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    white-space: nowrap;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.contact_us {
+    /* OUR CONTACT US SECTION */
+
+    position: absolute;
+    width: 97px;
+    height: 19px;
+    left: 1191px;
+    top: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    white-space: nowrap;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
 }
