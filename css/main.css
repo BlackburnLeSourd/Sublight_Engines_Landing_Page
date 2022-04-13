@@ -1,4 +1,13 @@
 /* CSS STRUCTURE TEMPLATE */
+.hero {
+    position: absolute;
+    width: 100%;
+    height: 960px;
+    left: 0px;
+    top: 0px;
+
+    background: url(hero_imf.jpg);
+}
 
 /* rectangle 1 Navigation */
 .rectangle-1 {
@@ -27,7 +36,7 @@
     position: absolute;
     width: 110px;
     height: 19px;
-    right: 720px;
+    right: 610px;
     top: 24px;
 
     font-family: 'Roboto';
@@ -47,7 +56,7 @@
     position: absolute;
     width: 119px;
     height: 19px;
-    left: 885px;
+    right: 436px;
     top: 24px;
 
     font-family: 'Roboto';
@@ -71,7 +80,7 @@
     position: absolute;
     width: 77px;
     height: 19px;
-    left: 1059px;
+    right: 304px;
     top: 24px;
 
     font-family: 'Roboto';
@@ -95,7 +104,7 @@
     position: absolute;
     width: 97px;
     height: 19px;
-    left: 1191px;
+    right: 152px;
     top: 24px;
 
     font-family: 'Roboto';
