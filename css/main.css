@@ -1,122 +1,171 @@
 /* CSS STRUCTURE TEMPLATE */
-.hero {
+
+* {
+    font-family: roboto;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------HEADER NAVIGATION BAR---------------------- */
+
+header {
     position: absolute;
     width: 100%;
     height: 960px;
     left: 0px;
     top: 0px;
-
-    background: url(hero_imf.jpg);
-}
-
-/* rectangle 1 Navigation */
-.rectangle-1 {
-    position: absolute;
-    width: 100%;
-    height: 68px;
-    left: 0px;
-    top: 24px;
-    background: rgba(0, 0, 0, 0.69);
-
 }
 
 .logo {
-    /* logo_sublight */
-    position: absolute;
+    /* lOGO SUBLIGHT */
+    position: relative;
     width: 465px;
     height: 86px;
     left: 20px;
-    top: -10px;
-
+    top: -15px;
 }
 
-.our_services {
-    /* OUR SERVICES SECTION */
-
-    position: absolute;
-    width: 110px;
-    height: 19px;
-    right: 610px;
+.topnav {
+    /* RECTANGLE NAVIGATION */
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 68px;
     top: 24px;
 
+    background-color: rgba(0, 0, 0, 0.69);
+}
+
+.topnav a {
+    /* LINK */
+    display: flex;
+    align-self: flex-start;
+    padding: 24px 10px;
+    text-decoration: none;
+    font-size: 16px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
     line-height: 19px;
-    white-space: nowrap;
-    /* identical to box height */
-    text-align: center;
     text-transform: uppercase;
+
+
+}
+
+/* Change the color of links on hover */
+.topnav a:visited {
+    /* LINK COLOR VISITED */
     color: #FFFFFF;
 }
 
-.our_products {
-    /* OUR PRODUCTS SECTION */
-    position: absolute;
-    width: 119px;
-    height: 19px;
-    right: 436px;
-    top: 24px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    white-space: nowrap;
-    /* identical to box height */
-
-    text-align: center;
-    text-transform: uppercase;
-
+.topnav a:link {
+    /* LINK COLOR */
     color: #FFFFFF;
-
 }
 
-.about_us {
-    /* OUR ABOUT US SECTION */
-
-    position: absolute;
-    width: 77px;
-    height: 19px;
-    right: 304px;
-    top: 24px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    white-space: nowrap;
-    /* identical to box height */
-
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
-
+/* HERO BACKGROUND */
+.hero {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100%;
+    height: 960px;
+    left: 0px;
+    top: 0px;
+    background: url(/asset/images/hero_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.contact_us {
-    /* OUR CONTACT US SECTION */
+/* -------------------HERO SECTION----------------------- */
 
-    position: absolute;
-    width: 97px;
-    height: 19px;
-    right: 152px;
-    top: 24px;
 
-    font-family: 'Roboto';
+/* OUR MISSION */
+
+.first-h {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    /* margin-bottom: 40px; */
+}
+
+.mission {
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    white-space: nowrap;
+    font-weight: 800;
+    font-size: 51px;
+    line-height: 60px;
     /* identical to box height */
 
     text-align: center;
     text-transform: uppercase;
+    white-space: nowrap;
 
     color: #FFFFFF;
+}
+
+/* TAKE YOU TO THE TOP */
+
+.second-h {
+    display: flex;
+    justify-content: center;
+}
+
+.take {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 79px;
+    line-height: 93px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+/* ELEVATOR BUTTON */
+
+.elevator-button {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+/* WHY US? */
+/* RECTANGLE-2 */
+.rectangle-2 {
+    position: static;
+    width: 100%;
+    height: 711px;
+    left: 0px;
+    top: 960px;
+
+    /* Sublight Engines/Gray */
+
+    background: #383838;
+}
+
+/* 2022 SECUREBOARDS SERIES */
+
+.rectangle-3 {
+    position: static;
+    width: 100%;
+    height: 571px;
+    left: 0px;
+    top: 1671px;
+}
+
+/* Rectangle 3 */
+
+.rectangle-4 {
+
+    position: static;
+    width: 100%;
+    height: 853px;
+    left: 0px;
+    top: 2242px;
+
+    background: #FF7630;
 }
