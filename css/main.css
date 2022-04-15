@@ -23,7 +23,7 @@ header {
     height: 86px;
     left: 20px;
     top: -15px;
-    margin-right: 300px;
+    margin-right: 225px;
 }
 
 .topnav {
@@ -49,8 +49,13 @@ header {
     font-weight: 700;
     line-height: 19px;
     text-transform: uppercase;
+    white-space: nowrap;
 
+}
 
+.contactus {
+    display: flex;
+    margin-right: 150px;
 }
 
 /* Change the color of links on hover */
@@ -117,8 +122,7 @@ header {
     font-weight: 900;
     font-size: 79px;
     line-height: 93px;
-    /* identical to box height */
-
+    white-space: nowrap;
     text-align: center;
     text-transform: uppercase;
 
@@ -152,6 +156,7 @@ header {
     line-height: 29px;
     text-align: center;
     text-transform: uppercase;
+    white-space: nowrap;
     margin-top: 80px;
     margin-bottom: 15px;
 
@@ -165,6 +170,7 @@ header {
     line-height: 53px;
     text-align: center;
     text-transform: uppercase;
+    white-space: nowrap;
     margin-bottom: 30px;
 
     color: #FFFFFF;
