@@ -573,7 +573,29 @@ button {
     line-height: 22px;
 }
 
-.white {
-    color: #FFFFFF;
-    height: 75px;
+.trust {
+    display: flex;
+    height: 254px;
+    justify-content: space-around;
+
+
+    background: #292929;
+}
+
+.sixteenth-h {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 53px;
+    margin-left: 225px;
+
+    color: #FF7630;
+}
+
+.logo-signature {
+    display: flex;
+    align-items: center;
+    margin-right: 575px;
 }
