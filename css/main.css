@@ -429,25 +429,7 @@ header {
     margin-bottom: 20px;
 }
 
-.safety-img img {
-    display: flex;
-}
 
-.cab-img img {
-    display: flex;
-}
-
-.door-img img {
-    display: flex;
-}
-
-.mechanics-img img {
-    display: flex;
-}
-
-.hatch-img img {
-    display: flex;
-}
 
 .div-button {
     display: flex;
@@ -471,4 +453,127 @@ header {
     margin-top: 70px;
     ;
 
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 924px;
+    background-color: #FFFFFF;
+}
+
+.thirteenth-h {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 120px;
+    margin-bottom: 15px;
+
+    color: #292929;
+}
+
+.fourteenth-h {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+    color: #FF7630;
+}
+
+.fifteenth-h {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Sublight Engines/Orange */
+
+    color: #FF7630;
+}
+
+.third-separator-img {
+    display: flex;
+    margin-top: 35px;
+}
+
+/* ------------------FORM----------------- */
+
+.First-part-form {
+    display: flex;
+    justify-content: center;
+    height: 28%;
+}
+
+input[type=text] {
+    width: 800px;
+    padding: 20px 20px;
+    margin: 10px 0;
+    outline: none;
+}
+
+
+.second-part-form {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+
+}
+
+.second-part,
+input {
+    width: 350px;
+    margin-right: 50px;
+
+}
+
+.third-part,
+select {
+    width: 350px;
+    margin-left: 50px;
+}
+
+
+input[type=number],
+select {
+    width: 100%;
+    padding: 20px 60px;
+    margin: 8px 0;
+}
+
+.submit-form-button {
+    display: flex;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 800px;
+    padding: 20px 20px;
+    margin: 10px 0;
+    background-color: #FFFFFF;
+    margin-top: 40px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.white {
+    color: #FFFFFF;
+    height: 75px;
 }
