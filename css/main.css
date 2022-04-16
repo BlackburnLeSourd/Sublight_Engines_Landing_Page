@@ -1,7 +1,7 @@
 /* CSS STRUCTURE TEMPLATE */
 
 * {
-    font-family: roboto;
+    font-family: "Roboto";
     margin: 0;
     box-sizing: border-box;
 }
@@ -101,8 +101,6 @@ header {
     font-weight: 800;
     font-size: 51px;
     line-height: 60px;
-    /* identical to box height */
-
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -301,15 +299,176 @@ header {
     margin-right: 75px;
 }
 
-/* Rectangle 3 */
+/* ----------------------- OUR PRODUCT SECTION --------------------------- */
 
-.rectangle-4 {
+.ourproducts {
 
-    position: static;
+    position: flex;
     width: 100%;
     height: 853px;
-    left: 0px;
-    top: 2242px;
 
     background: #FF7630;
+}
+
+.second-group-h {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tenth-h {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 68px;
+
+    color: #FFFFFF;
+}
+
+.eleventh {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+    color: #FFFFFF;
+}
+
+.twelfth-h {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+    color: #FFFFFF;
+}
+
+.second-separator {
+    display: flex;
+    margin-top: 40px;
+}
+
+.products-catalog {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+
+}
+
+.safety-img {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    /* or 110% */
+
+    text-align: center;
+
+    /* Sublight Engines/Gray */
+
+    color: #383838;
+    background: #FFFFFF;
+}
+
+.cab-img {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #383838;
+    background: #FFFFFF;
+}
+
+.door-img {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #383838;
+
+    background: #FFFFFF;
+}
+
+.mechanics-img {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #383838;
+    background: #FFFFFF;
+}
+
+.hatch-img {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #383838;
+    background: #FFFFFF;
+}
+
+.safety-h {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.safety-p {
+    margin-bottom: 20px;
+}
+
+.safety-img img {
+    display: flex;
+}
+
+.cab-img img {
+    display: flex;
+}
+
+.door-img img {
+    display: flex;
+}
+
+.mechanics-img img {
+    display: flex;
+}
+
+.hatch-img img {
+    display: flex;
+}
+
+.div-button {
+    display: flex;
+    justify-content: center;
+
+}
+
+.download-button {
+    display: flex;
+    background-color: #FF7630;
+    border: 3px solid #FFFFFF;
+    color: white;
+    padding: 16px 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 70px;
+    ;
+
 }
