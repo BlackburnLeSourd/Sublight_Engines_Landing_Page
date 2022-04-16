@@ -230,7 +230,6 @@ header {
 .sixth-h {
     display: flex;
     margin-right: 35px;
-
 }
 
 .seventh-h {
@@ -240,12 +239,66 @@ header {
 
 /* 2022 SECUREBOARDS SERIES */
 
-.rectangle-3 {
-    position: static;
+.rectangle-secureboard {
+    display: flex;
     width: 100%;
     height: 571px;
-    left: 0px;
-    top: 1671px;
+
+}
+
+.security-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.eighth-h {
+    display: flex;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin-left: 75px;
+
+
+    /* Sublight Engines/Black */
+
+    color: #292929;
+}
+
+.ninth-h {
+    display: flex;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin-left: 75px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+
+    /* Sublight Engines/Black */
+
+    color: #292929;
+}
+
+.security-text {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    margin-left: 75px;
+    margin-right: 350px;
+
+    color: #000000;
+}
+
+.security-img {
+    display: flex;
+    width: 615px;
+    height: 411px;
+    margin-top: 80px;
+    margin-right: 75px;
 }
 
 /* Rectangle 3 */
