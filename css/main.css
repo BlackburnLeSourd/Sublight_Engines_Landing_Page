@@ -599,3 +599,64 @@ button {
     align-items: center;
     margin-right: 575px;
 }
+
+footer {
+    height: 300px;
+    background: #FFFFFF;
+}
+
+.state {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FF7630;
+}
+
+.adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #292929;
+}
+
+.number {
+    color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+}
+
+.seventeenth-h {
+    margin-right: 1200px;
+}
+
+.eighteenth-h {
+    text-align: right;
+
+}
+
+.nineteenth-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30%;
+
+
+}
+
+.nineteenth-h,
+.nine-p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #292929;
+
+}
