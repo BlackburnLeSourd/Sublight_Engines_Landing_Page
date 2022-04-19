@@ -53,6 +53,11 @@ header {
 
 }
 
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
 .contactus {
     display: flex;
     margin-right: 150px;
@@ -529,7 +534,6 @@ input[type=text] {
     justify-content: center;
     align-items: center;
     height: 10%;
-
 }
 
 .second-part,
@@ -546,7 +550,7 @@ select {
 }
 
 
-input[type=number],
+input[type=tel],
 select {
     width: 100%;
     padding: 20px 60px;

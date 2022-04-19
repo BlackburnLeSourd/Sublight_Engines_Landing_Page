@@ -6,6 +6,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="height=device-height, 
+    width=device-width, initial-scale=1.0, 
+    minimum-scale=1.0, maximum-scale=1.0, 
+    user-scalable=no, target-densitydpi=device-dpi">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -13,7 +17,9 @@
     <meta name="description" content="">
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media='screen and (max-width: 768px)' href="css/mobile.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 
@@ -21,8 +27,9 @@
     <!-- HEADER -->
     <header>
         <!-- NAVIGATION -->
-        <div class="topnav">
-            <a class="logo"> <img class="logo" src="/asset/images/logo_sublight.svg" alt="logo_sublight"></a>
+        <div class="topnav" id="topnav">
+            <a class="logo"> <img class="logo" src="asset/images/logo_sublight.svg" alt="logo_sublight"></a>
+
             <!-- OUR SERVICES SECTION -->
 
             <a href="#SERVICES">OUR SERVICES</a>
@@ -37,6 +44,11 @@
             <div class="contactus">
                 <a href="#CONTACTUS">CONTACT US</a>
             </div>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+
 
         </div>
     </header>
@@ -53,7 +65,7 @@
             </div>
             <div class="elevator-button">
                 <a href="#">
-                    <img src="\asset\images\elevator_button.png" alt="button" />
+                    <img src="asset\images\elevator_button.png" alt="button" />
                 </a>
             </div>
 
@@ -72,7 +84,7 @@
             </div>
 
             <div class="separator_img">
-                <img src="\asset\images\separator.png" alt="separator_png">
+                <img src="asset\images\separator.png" alt="separator_png">
             </div>
 
             <div class="item-icon">
@@ -233,7 +245,7 @@
 
                 <div class="second-part">
                     <label for="pnumber">PHONE NUMBER</label><br>
-                    <input type="number" id="pnumber" name="pnumber" value="" placeholder="0 (000) 000-0000">
+                    <input type="tel" id="pnumber" name="pnumber" value="" placeholder="0 (000) 000-0000">
                 </div>
 
                 <div class="third-part">
@@ -287,6 +299,8 @@
             <p class=nine-p>All right reserverd to CodeBoxx solutions ©,2022</p>
         </div>
     </footer>
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/main.js"></script>
     <script src="" async defer></script>
 </body>
 
