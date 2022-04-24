@@ -5,7 +5,11 @@
     <!-- SEO -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="height=device-height, 
+    width=device-width, initial-scale=1.0, 
+    minimum-scale=1.0, maximum-scale=1.0, 
+    user-scalable=no, target-densitydpi=device-dpi">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -13,7 +17,9 @@
     <meta name="description" content="">
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media='screen and (max-width: 768px)' href="css/mobile.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 
@@ -21,8 +27,11 @@
     <!-- HEADER -->
     <header>
         <!-- NAVIGATION -->
-        <div class="topnav">
-            <a class="logo"> <img class="logo" src="/asset/images/logo_sublight.svg" alt="logo_sublight"></a>
+        <div class="topnav" id="topnav">
+
+            <a href="/">
+                <img class="logo" src="asset/images/logo_sublight.svg" alt="logo_sublight"> </a>
+
             <!-- OUR SERVICES SECTION -->
 
             <a href="#SERVICES">OUR SERVICES</a>
@@ -34,9 +43,13 @@
             <a href="#ABOUTUS">ABOUT US</a>
 
             <!--  CONTACT US SECTION -->
-            <div class="contactus">
-                <a href="#CONTACTUS">CONTACT US</a>
-            </div>
+            <a href="#CONTACTUS">CONTACT US</a>
+
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class='fas fa-bars fa-fw fa-lg'></i>
+            </a>
+
 
         </div>
     </header>
@@ -53,7 +66,7 @@
             </div>
             <div class="elevator-button">
                 <a href="#">
-                    <img src="\asset\images\elevator_button.png" alt="button" />
+                    <img src="asset\images\elevator_button.png" alt="button" />
                 </a>
             </div>
 
@@ -72,25 +85,28 @@
             </div>
 
             <div class="separator_img">
-                <img src="\asset\images\separator.png" alt="separator_png">
+                <img src="asset\images\separator.png" alt="separator_png">
             </div>
 
             <div class="item-icon">
 
                 <div class="ratchet">
                     <img src="asset\images\ratchet.svg" alt="Ratchet_SVG">
+                    <h1>WE DESIGN</h1>
                 </div>
 
                 <div class="drill">
                     <img src="asset\images\drill.svg" alt="Drill_SVG">
+                    <h1>WE BUILD</h1>
                 </div>
 
                 <div class="multimeter">
                     <img src="asset\images\multimeter.svg" alt="multimeter_SVG">
+                    <h1>WE MAINTAIN</h1>
                 </div>
 
             </div>
-
+            <!-- 
             <div class=" group-h">
 
                 <div class="fifth-h">
@@ -105,7 +121,7 @@
                     <h1>WE MAINTAIN</h1>
                 </div>
 
-            </div>
+            </div> -->
 
         </section>
 
@@ -142,7 +158,7 @@
 
         <!-------------------- OUR PRODUCTS SECTION------------->
 
-        <section class="ourproducts" ID="PRODUCTS">
+        <section class="ourproducts" id="PRODUCTS">
 
             <div class="second-group-h">
 
@@ -195,7 +211,7 @@
             </div>
 
             <div class="div-button">
-                <a href="#" class="download-button">DOWNLOAD OUR CATALOG</a>
+                <button class="download-button">DOWNLOAD OUR CATALOG</button>
             </div>
 
         </section>
@@ -233,7 +249,7 @@
 
                 <div class="second-part">
                     <label for="pnumber">PHONE NUMBER</label><br>
-                    <input type="number" id="pnumber" name="pnumber" value="" placeholder="0 (000) 000-0000">
+                    <input type="tel" id="pnumber" name="pnumber" value="" placeholder="0 (000) 000-0000">
                 </div>
 
                 <div class="third-part">
@@ -256,13 +272,16 @@
 
         <!-------------------- SECTION SINCE 1943 -------------------->
         <section class="trust">
+
             <div class="sixteenth-h">
                 <h1>With your trust since 1943.</h1>
             </div>
             <div class="logo-signature">
                 <img src="asset\images\logo-signature.svg" alt="logo-signature">
             </div>
+
         </section>
+
     </main>
 
     <!-- FOOTER -->
@@ -287,6 +306,8 @@
             <p class=nine-p>All right reserverd to CodeBoxx solutions ©,2022</p>
         </div>
     </footer>
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/main.js"></script>
     <script src="" async defer></script>
 </body>
 
