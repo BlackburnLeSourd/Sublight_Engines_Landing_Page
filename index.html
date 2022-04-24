@@ -235,13 +235,14 @@
 
             <div class="First-part-form">
 
-                <form class="first-part">
+                <form class="first-part" name="form" action="mobile">
                     <label for="fname">NAME*</label><br>
-                    <input type="text" id="fname" name="fname" value="" placeholder="Enter your full name"><br>
+                    <input type="text" id="fname" name="fname" value="" placeholder="Enter your full name" required
+                        minlength="4" maxlength="8"><br>
                     <br>
                     <label for="email">EMAIL ADDRESS*</label><br>
-                    <input type="text" id="email" name="email" value="" placeholder="yourname@company.com">
-                </form>
+                    <input type="text" id="email" name="email" value="" placeholder="yourname@company.com" required
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
 
             </div>
 
@@ -249,24 +250,26 @@
 
                 <div class="second-part">
                     <label for="pnumber">PHONE NUMBER</label><br>
-                    <input type="tel" id="pnumber" name="pnumber" value="" placeholder="0 (000) 000-0000">
+                    <input type="tel" id="pnumber" name="pnumber" value="" placeholder="0 (000) 000-0000"
+                        pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                 </div>
 
                 <div class="third-part">
                     <label for="language">PREFERRED LANGUAGE</label>
-                    <select id="language" name="language" placeholder="select">
+                    <select id="language" name="language" placeholder="select" required>
                         <option value="">select</option>
-                        <option value="1">English</option>
-                        <option value="2">French</option>
+                        <option value="English">English</option>
+                        <option value="French">French</option>
                     </select>
                 </div>
             </div>
 
             <div class="submit-button-form">
-                <button type="submit">
+                <button type="submit" id="submit-button" value="submit">
                     SUBMIT
                 </button>
             </div>
+            </form>
         </section>
 
 
@@ -308,6 +311,12 @@
     </footer>
     <!-- JAVASCRIPT FILES -->
     <script src="js/main.js"></script>
+    <!-- EMAILJS FORM -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('jd9QTgS20GvR2W5tB')
+    </script>
     <script src="" async defer></script>
 </body>
 
