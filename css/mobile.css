@@ -665,12 +665,3 @@
         color: #292929;
     }
 }
-
-@media only screen and (max-width: 768px) {
-
-    .form-textbox,
-    .form-textarea {
-
-        width: 768px;
-    }
-}
