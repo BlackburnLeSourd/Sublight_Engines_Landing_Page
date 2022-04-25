@@ -1,5 +1,5 @@
 {
-    "dependencies": {
-        "@emailjs/browser": "^3.6.2"
-    }
+  "dependencies": {
+    "@emailjs/browser": "^3.6.2"
+  }
 }
