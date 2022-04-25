@@ -235,7 +235,7 @@
 
             <div class="First-part-form">
 
-                <form class="first-part" name="form" action="mobile" method="post">
+                <form class="first-part" id="form" name="form" action="#form" method="POST">
                     <label for="fname">NAME*</label><br>
                     <input type="text" id="fname" name="fname" value="" placeholder="Enter your full name" required
                         minlength="4" maxlength="8"><br>
@@ -315,7 +315,9 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
     <script type="text/javascript">
-        emailjs.init('jd9QTgS20GvR2W5tB')
+        (function () {
+            emailjs.init('jd9QTgS20GvR2W5tB');
+        })();
     </script>
     <script src="" async defer></script>
 </body>
